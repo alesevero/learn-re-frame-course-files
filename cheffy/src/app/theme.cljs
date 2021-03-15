@@ -2,7 +2,7 @@
   (:require ["@smooth-ui/core-sc" :refer [theme]]))
 
 (def cheffy-theme (merge
-                   (js->clj theme :keywordize-keys? true)
+                   (js->clj theme :keywordize-keys true)
                    {:black "#243B53"
                     :primary "#27AB83"
                     :secondary "#F7D070"
